@@ -1,12 +1,13 @@
 import { footerLink, footerLinks } from "@/constants"
 import HoverSVG from "./HoverSVG"
 import { CustomButton } from "."
+import Image from "next/image"
 
 const Footer = () => {
   return (
     <footer className="bg-dark-blue padding py-12 flex flex-col sm:flex-row items-center text-position">
       <div className="flex flex-col items-center">
-        <img src='/assets/logo-white.svg' alt="logo" className="object-contain w-[10rem]" />
+        <Image src='/assets/logo-white.svg' width={20} height={20} alt="logo" className="object-contain w-[10rem]" />
         <HoverSVG />
       </div>
 

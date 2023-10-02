@@ -1,13 +1,14 @@
 import MobileNav from "./MobileNav"
 import CustomButton from "./CustomButton"
 import { navigation } from "@/constants"
+import Image from "next/image"
 
 const Navbar = () => {
 
   return (
     <header className="w-full relative bg-white z-50">
         <nav className="padding h-20 flex items-center relative w-full">
-            <img src='/assets/logo.svg' alt="logo" className="object-contain w-[9rem] lg:w-[10rem]" />
+            <Image src='/assets/logo.svg' width={20} height={20} alt="logo" className="object-contain w-[9rem] lg:w-[10rem]" />
             
             <div className="mx-auto hidden sm:flex items-center h-full gap-3 lg:gap-5 xl:gap-10">
                 {navigation.map(item => (
