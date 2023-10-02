@@ -42,7 +42,10 @@ export const article = [
     {
         id: 1,
         img: currency,
+<<<<<<< HEAD
         alt: 'Currency',
+=======
+>>>>>>> c37e8a89d08eb3232917d4f8d46dfcc7d11eb6fe
         author: 'Claire Robinson',
         title: 'Recieve money in any currency with no fees',
         text: 'The world is getting smaller and we\'re becoming more mobile. So why should you be forced to only recieve money in a single...'
@@ -50,7 +53,10 @@ export const article = [
     {
         id: 2,
         img: restaurant,
+<<<<<<< HEAD
         alt: 'Restaurant',
+=======
+>>>>>>> c37e8a89d08eb3232917d4f8d46dfcc7d11eb6fe
         author: 'Wilson Hutton',
         title: 'Treat yourself without worrying about money',
         text: 'Our simple budgeting feature allows you to seperate out your spending and set realistic limits each month. That means you ...'
@@ -58,7 +64,10 @@ export const article = [
     {
         id: 3,
         img: plane,
+<<<<<<< HEAD
         alt: 'Plane',
+=======
+>>>>>>> c37e8a89d08eb3232917d4f8d46dfcc7d11eb6fe
         author: 'Wilson Hutton',
         title: 'Take your Easybank card wherever you go',
         text: 'We want you to enjoy your travels. This is why we don\'t charge any fees on purchases while you\'re aboard. We\'ll even show you ...'
@@ -66,7 +75,10 @@ export const article = [
     {
         id: 4,
         img: confetti,
+<<<<<<< HEAD
         alt: 'Confetti',
+=======
+>>>>>>> c37e8a89d08eb3232917d4f8d46dfcc7d11eb6fe
         author: 'Claire Robinson',
         title: 'Our invite-only Beta accounts are now live!',
         text: 'After a lot of hard work by the whole team, we\'re excited to launch our closed beta. It\'s easy to request an invite through the site ...'

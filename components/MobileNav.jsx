@@ -8,7 +8,11 @@ const navMenu = () => {
 
   return (
     <>
+<<<<<<< HEAD
     <button className="ml-auto sm:hidden" onClick={() => setBtn(!btn)}>
+=======
+    <button className="ml-auto sm:hidden" onClick={(e) => setBtn(!btn)}>
+>>>>>>> c37e8a89d08eb3232917d4f8d46dfcc7d11eb6fe
       <img src={btn ? '/assets/icon-close.svg' : '/assets/icon-hamburger.svg'} alt="menu" 
       className={`object-contain ${btn ? 'w-6' : 'w-8'}`} />
     </button>

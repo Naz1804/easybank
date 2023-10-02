@@ -9,7 +9,11 @@ const Articles = () => {
         <div className="flex justify-evenly items-center flex-wrap xl:flex-nowrap gap-6 mt-12 sm:mt-24">
             {article.map(item => (
                 <div key={item.id} className="bg-white rounded-b-lg w-full sm:w-[320px] xl:w-fit">
+<<<<<<< HEAD
                     <Image src={item.img} width={500} height={500} alt={item.alt} className="object-contian w-full rounded-t-lg h-[15rem]" />
+=======
+                    <Image src={item.img} width={500} height={500} className="object-contian w-full rounded-t-lg h-[15rem]" />
+>>>>>>> c37e8a89d08eb3232917d4f8d46dfcc7d11eb6fe
                     <div className="flex flex-col gap-y-2 py-6 px-5 xl:px-7">
                         <p className="text-gray-blue text-xs">By {item.author}</p>
                         <h4 className="text-xl font-medium text-dark-blue hover:text-lime-green cursor-pointer">
