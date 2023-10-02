@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { navigation } from "@/constants";
 
-const navMenu = () => {
+const MobileNav = () => {
   const [btn, setBtn] = useState(false)
 
   return (
@@ -26,4 +26,4 @@ const navMenu = () => {
   )
 }
 
-export default navMenu
+export default MobileNav
