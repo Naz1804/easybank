@@ -5,7 +5,7 @@ import { Public_Sans } from 'next/font/google'
 const publicSans = Public_Sans({subsets: ['latin']})
 
 export const metadata = {
-  title: 'easybank',
+  title: 'Easybank',
   description: 'Take Your Financial Life Online',
 }
 
