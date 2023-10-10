@@ -1,5 +1,5 @@
 # Easybank
-This is a langing page about why you should take your financial life online with Easybank and showing the benefits for choosing digital banking.
+This is a landing page about why you should take your financial life online with Easybank and showing the benefits for choosing digital banking.
 
 ## Technologies
 * Next.js
