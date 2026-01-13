@@ -1,11 +1,17 @@
 # Easybank
-This is a landing page about why you should take your financial life online with Easybank and showing the benefits for choosing digital banking.
 
-## Technologies
+## Overview
+A simple, responsive one-page landing site built with Next.js and Tailwind CSS, created as an introduction to file-based routing, component structure, and modern frontend styling workflows.
+
+## Key Technical Highlights
+- File-based routing and page structure using Next.js
+- Utility-first styling with Tailwind CSS
+- Reusable UI components for consistent layout
+
+## Tech Stack
 * Next.js
-* JavaScript
+* React
 * Tailwind CSS
-* HTML
 
 ## Installation
 First thing first is you need `node.js` installed. USe this _[Link](https://nodejs.org/)_ to be sent to the `node.js` downloads.
